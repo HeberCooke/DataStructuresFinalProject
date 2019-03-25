@@ -1,0 +1,185 @@
+
+Early Look
+
+Monday, March 25, 2019
+
+ 
+
+Futures
+
+Up/Down
+
+%
+
+Last
+
+DJ Industrials
+
+-12.00
+
+0.05%
+
+25,558
+
+S&P 500
+
+-2.50
+
+0.07%
+
+2,808
+
+Nasdaq
+
+-13.50
+
+0.18%
+
+7,345
+
+ 
+
+ 
+
+U.S. futures are pointing slightly lower, but trading off its worst levels (about 20-points off the 2,790.25 low) as attention turned this weekend to the Mueller report in Washington, which found no evidence Trump colluded with Russia but also didn't exonerate him regarding obstruction of justice. In Asian markets, The Nikkei Index fell -650 points to settle at 20,977, the Shanghai Index fell -61 points to 3,043 and the Hang Seng Index dropped -590 points to close at 28,523. In Europe, the German DAX is little changed at 11,360, while the FTSE 100 is down a few points moving back under the 7,200 level. In corporate news this weekend, lots of headlines for Apple which is expected to announce major updates for its Apple TV platform and a new subscription news service during a special event today, as well as news on GOOGL, VIAB, and other tech names. Several Fed speakers out overnight/this morning noting they may put rates on hold, while investors await news out of Beijing later this week as trade negotiators look to iron out trade details with China
+
+ 
+
+It was a rough way to end the week on Friday as stocks fell sharply and ended near session lows following a round of disappointing economic data out of Europe and as Treasury yields plummeted, causing an inversion of the U.S. Treasury yield curve that raised worries over global growth. The Dow Jones Industrial Average dropped around 460 points, or 1.8%, to end near 25,503, while the S&P 500 fell 1.9% to close near 2,801 and the Nasdaq Composite dropped 2.5% to end near 7,643. The move pulled major averages off 4-month peaks reached just the session before. The yield on the 10-year Treasury note fell nearly 8 basis points to 2.459%, a fresh 15-month low, briefly dipping below the three-month T-bill at 2.459%, raising recession fears. Meanwhile, the Cboe Volatility Index (VIX) spiked 24% to 16.96 on Friday.
+
+ 
+
+Market Closing Prices Yesterday
+
+The S&P 500 Index dropped -54.17 points, or 1.90%, to 2,800.71
+The Dow Jones Industrial Average fell -460.19 points, or 1.77%, to 25,502.32
+The Nasdaq Composite plunged -196.29 points, or 2.50%, to 7,642.67
+The Russell 2000 Index declined -56.49 points, or 3.62% to 1,505.92
+ 
+
+Events Calendar for Today
+
+1:00 AM EST       Fed Evans gives speech in Hong Kong
+6:00 AM EST       Fed’s Harker speaks in London on Economic Outlook
+8:30 AM EST       Chicago Fed Nat Activity Index for February…est. -0.38
+10:30 AM EST     Dallas Fed Manufacturing Activity for March…est. 9.0
+ 
+
+Earnings Calendar:
+
+Earnings Before the Open: WGO
+Earnings After the Close: RHT
+ 
+
+Other Key Events:
+
+Academy of Managed Care & Specialty Pharma, 3/25-3/29 in San Diego, CA
+Adobe Summit – The Digital Experience Conference, 3/25-3/28, in Las Vegas
+Scotia 47th Annual Energy Conference, 3/25-3/26 in New Orleans
+ 
+
+ 
+
+Macro
+
+Up/Down
+
+Last
+
+WTI Crude
+
+-0.03
+
+59.01
+
+Brent
+
+-0.11
+
+66.92
+
+Gold
+
+5.30
+
+1,324.00
+
+EUR/USD
+
+0.0014
+
+1.1316
+
+JPY/USD
+
+0.28
+
+110.20
+
+10-Year Note
+
++0.006
+
+2.466%
+
+ 
+
+ 
+
+World News
+
+Attorney General William Barr said that special counsel Robert Mueller's Russia investigation did not find sufficient evidence that President Trump obstructed justice, or that his campaign coordinated with Russian efforts to influence the 2016 election
+Federal Reserve Bank of Philadelphia President Patrick Harker said this morning “My current view is that, at most, one rate hike this year, and one in 2020, is appropriate, and my stance will be guided by data as they come in and events as they unfold”
+Chicago Fed President Charles Evans said “the Federal Reserve may have to put interest-rate increases on hold or even ease monetary policy if economic forecasts for 2019 disappoint.” “At the moment, the risks from the downside scenarios loom larger than those from the upside ones,” Evans said in remarks prepared for a speech Monday in Hong Kong. “If activity softens more than expected or if inflation and inflation expectations run too low, then policy may have to be left on hold -- or perhaps even loosened -- to provide the appropriate accommodation to obtain our objectives.”
+German business sentiment picked up in March following six straight months of decline, as the Ifo Institute said Monday that its business climate index rose to 99.6 in March from a revised 98.7 in February, topping economists' consensus forecast for 98.3.
+China is refusing to budge on U.S. demands that it relax its restrictions on digital trade, a priority for America's largest technology companies and one of several remaining obstacles to an agreement between Washington and Beijing – Financial Times
+ 
+
+Sector News Breakdown
+
+ 
+
+Consumer
+
+Uber Technologies Inc. is set to announce a $3.1 billion cash-and-share deal to acquire its Dubai-based rival Careem Networks FZ as early as this week, Bloomberg reported according to people with knowledge of the matter. https://bloom.bg/2CvE3D9 
+Lyft (LYFT) mentioned cautiously in Barron’s saying investors should steer clear of the upcoming IPO until there’s a clear road to profitability. Lyft, positioning itself as the anti-Uber, plans to sell 30.8 million shares at $62 to $68 each, valuing the firm at $20 billion.
+Prices on all Tesla Inc. (TSLA) inventory cars will rise by about 3% on April 1, Chief Executive Elon Musk said Sunday. In a series of tweets, Musk said the price hike will take effect at midnight, April 1 — “so effective April 2.” The first quarter ends March 31.
+General Motors (GM) mentioned positively in Barron’s saying GM is the favorite pick of Rod Lache, Institutional Investor’s No. 1-ranked U.S. auto analyst every year since 2012 while also said Tesla (TSLA) and Lear (LEA) are also good bets for investors
+ 
+
+Energy, Industrials & Materials
+
+Caterpillar (CAT), a Barron’s 2019 top pick, may have cut costs too far, according to JPMorgan while Baird’s analyst says that the heavy machinery company has expanded margins by over 4%, saying “Deere (DE) cannot claim that, the smaller cap guys are nowhere near that level of improvement.”
+EQT Corp. (EQT) issued details of its ongoing strategic plan, including the disclosure that it has already implemented cost saving actions that have reduced annual cash costs by about $150 million. Of expected $800 million cost savings next five years, EQT says has already identified $250 million
+Air-safety regulators in the U.S. have tentatively approved Boeing’s (BA) changes to software and pilot-training with regard to its grounded 737 Max jets, according to the Wall Street Journal.
+American Airlines (AAL) said it is extending flight cancellations related to the Boeing 737 MAX through April 24 as it awaits information from U.S. authorities about when the planes can resume service.
+Norbord (OSB) files $500M mixed securities shelf
+ 
+
+Financials
+
+Regional banks (KRE) was down about 9% for the last 3-days since the Fed changed it stance on rates this year; XLF down over 5%
+Cousins Properties (CUZ) raises quarterly dividend by 11.5% to 7.25c per share
+ 
+
+Healthcare
+
+Thermo Fisher Scientific Inc. (TMO) said it is buying privately held Brammer Bio for $1.7 billion in a move that would expand the lab-equipment company’s presence in the rapidly growing field of gene therapy. https://on.mktw.net/2JQrZmb
+Eli Lilly (LLY) said the net price it was paid for its insulin product Humalog fell by 8.1% from 2014 to 2018 after accounting for rebates and discounts, the WSJ reported; the net price for Humalog insulin fell to $135 per patient per month in 2018 from $147 in 2014
+Pain Therapeutics (PTIE) shares dropped late Friday after ending development of Remoxy ER and its contract with Durect (DRRX)
+ 
+
+Technology, Media & Telecom
+
+Pinterest (PINS) confirmed that it will apply to list Class A common stock on the New York Stock Exchange (ICE) under ticker symbol PINS in its S-1 filing on Friday
+Apple (AAPL) set to unveil streaming service, will reportedly offer HBO, Showtime for $9.99 a month; will shift its business further toward the services side Monday, according to a new report from the WSJ a day before the unveiling of its highly anticipated streaming-video service.
+Nintendo Co. (NTDOY) plans to launch two new versions of its Switch gaming console as early as this summer, according to reports. One version will have enhanced features targeted at avid video gamers, although it won't be as powerful as Sony Corp.'s (SNE) PlayStation 4 Pro or Microsoft Corp.'s (MSFT) Xbox One X, according to parts suppliers and software developers
+Google-owned (GOOGL) YouTube has canceled plans for high-end dramas and comedies, Bloomberg reported, citing people familiar with the matter, a retreat from direct competition with Netflix (NFLX) and Amazon's (AMZN) Prime Video service
+AT&T Inc. (T) resolved its contract dispute with Viacom Inc. (VIAB), staving off a blackout that would have kept its millions of pay-TV customers from seeing cable channels such as Nickelodeon and MTV.
+Inmarsat PLC (ISAT.LN) has agreed to a $3.4 billion takeover offer from a consortium of private equity and pension plan investors, the companies. The consortium comprising funds advised by Apax Partners and Warburg Pincus LLC, as well as Canada Pension Plan Investment Board and Ontario Teachers' Pension Plan Board offered $7.21 a share https://on.mktw.net/2HG4MRF
+Sabre (SABR), Manpower Group (MAN), Webster Financial (WBS), National Instruments (NATI) and j2 Global (JCOM) are mid-cap companies that have yields of at least 2% and that grew their free cash flow in 2018 from the previous year - Barron’s
+ 
+
+ 
+
+Warm Regards,
