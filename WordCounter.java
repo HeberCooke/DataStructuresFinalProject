@@ -2,6 +2,7 @@ import java.io.*;
 import java.util.*;
 import java.util.Map.Entry;
 import javafx.application.Application;
+import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
 import javafx.geometry.Insets;
 import javafx.scene.Scene;
@@ -50,8 +51,12 @@ public class WordCounter extends Application {
 		vBox.setPadding(new Insets(15, 15, 15, 15));
 		vBox.setSpacing(15);
 		
+		//Button for submit search
+		Button btnSubmitSearch = new Button("submit");
+		
+
 		// adding label (Search) and text fields to vBox
-		vBox.getChildren().addAll(searchTextField, searchResultsTextField);
+		vBox.getChildren().addAll(btnSubmitSearch,searchTextField, searchResultsTextField);
 
 		// VBox for center of main border pane
 		VBox vBoxCenter = new VBox();
@@ -72,6 +77,28 @@ public class WordCounter extends Application {
 		RadioButton btnCopyPaste = new RadioButton("Copy Paste");
 		btnCopyPaste.setPadding(new Insets(0, 15, 3, 15));
 
+		//button submit for search 
+		btnSubmitSearch.setOnAction( e -> {
+			//getting search word 
+			search = searchTextField.getText();
+
+			// finding what string to search
+			WordDisplays w;
+			if (btnCopyPaste.isSelected()) { // String is from copy and paste
+				w = new WordDisplays(mainString.toLowerCase(), search.toLowerCase());
+				btnCopyPaste.setSelected(true);
+			} 
+			else {					 // String  from file
+				w = new WordDisplays(fileString.toLowerCase(), search.toLowerCase());
+			}
+			searchResultsTextField.setText(w.toString());
+
+			// clearing search text field
+			searchTextField.clear();
+
+			
+		});
+		
 		// search field set on enter
 		searchTextField.setOnKeyPressed(new EventHandler<KeyEvent>() {
 			@Override
@@ -103,8 +130,13 @@ public class WordCounter extends Application {
 		btnFileName.setToggleGroup(group);
 		btnCopyPaste.setToggleGroup(group);
 
-		// HBox for label (Enter data here and toggle buttons into hBox
-		hBoxforlbl.getChildren().addAll(btnFileName, btnCopyPaste);
+		//Ta3 is main text output area 
+		TextArea ta3 = new TextArea();
+		ta3.setWrapText(true);
+		ta3.autosize();
+		ta3.setStyle("-fx-font-size: 15");
+		
+
 
 		// VBox for textAea that holds 5 most common words and a scroll pane for
 		// alphabetical list and in natural order list
@@ -115,11 +147,7 @@ public class WordCounter extends Application {
 		VBox vBoxBottom = new VBox();
 		HBox hb = new HBox();
 
-		//Ta3 is main text output area 
-		TextArea ta3 = new TextArea();
-		ta3.setWrapText(true);
-		ta3.autosize();
-		ta3.setStyle("-fx-font-size: 15");
+
 
 		//button for displaying list in most used order 
 		RadioButton btn1 = new RadioButton("Most used list");
@@ -156,6 +184,80 @@ public class WordCounter extends Application {
 		btn1.setToggleGroup(group2);
 		btn2.setToggleGroup(group2);
 		btn3.setToggleGroup(group2);
+
+		//button submit
+		Button btnSubmit = new Button("submit");
+		btnSubmit.setLineSpacing(3);
+		btnSubmit.setOnAction( e -> {
+			//====================================================================================
+			try {
+				//resetting view buttons 
+				btn1.setSelected(false);
+				btn2.setSelected(false);
+
+				// is a data is copy paste radio button the string getting from the text area is
+				// a arrayList of strings
+				if (btnCopyPaste.isSelected()) {
+					listPath = textFieldForData.getText();
+					mainString = listPath;
+					ta3.setText(countWordsInsertionOrder(btnCopyPaste.isSelected()));
+					textFieldForData.clear();
+					
+					// count the words in the main string
+					searchResultsTextField.setText(mainString.length() + "   words  counted ");
+					
+					//resetting the text field 
+					textFieldForData.clear();
+				}
+				
+				// if the is file radio button is checked sPath is the string to name that file
+				if (btnFileName.isSelected()) {
+					
+					// Getting the file name from the text field
+					sPath = textFieldForData.getText();
+
+					// creating a file object
+					File f = new File(sPath);
+					try {
+						Scanner readIn = new Scanner(f);
+						// Clearing main text area
+						ta3.clear();
+						String temp; // String to get string from file
+
+						//reading info from the file 
+						while (readIn.hasNext()) {	
+							temp = readIn.next() + " ";
+							builderString.append(temp);
+
+							// Display file text to main area
+							ta3.appendText(temp + "\n");
+
+						}
+						//setting string to be search able 
+						fileString = builderString.toString();
+						mainString = ta3.getText();
+
+						textFieldForData.clear();
+						
+						// count the words in the main string
+						searchResultsTextField.setText(mainString.length() + "   words  counted ");
+						readIn.close();
+					} catch (FileNotFoundException ex) {
+						ta3.clear();
+						ta3.setText("No File with that name");
+					}
+
+				}
+			} catch (NullPointerException ex) {
+				System.out.println("Null pointer Exeption");
+				ta3.clear();
+				ta3.appendText("Please select a radio button ");
+				textFieldForData.clear();
+			}
+		});
+		
+		// HBox for label (Enter data here and toggle buttons into hBox
+		hBoxforlbl.getChildren().addAll(btnSubmit,btnFileName, btnCopyPaste);
 
 		//adding hBox with radio buttons  and main text area to the bottom vBox 
 		vBoxBottom.getChildren().addAll(hb, ta3);
